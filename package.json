@@ -1,0 +1,25 @@
+{
+  "name": "npmtest",
+  "version": "0.0.0",
+  "description": "Some Npm Test.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "",
+  "license": "MIT"
+}
